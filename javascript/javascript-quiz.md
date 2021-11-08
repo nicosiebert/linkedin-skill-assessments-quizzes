@@ -1089,3 +1089,16 @@ console.log(obj2.a, obj2.b);
 - [x] 0 2
 - [ ] undefined 2
 - [ ] undefined 2
+  
+#### Q96. What is the output of this code?
+  let rainForests = ["Amazon", "Borneo", "Cerrado","Congo"];
+  rainForests.splice(0,2);
+  console.log(rainForests);
+  
+  [x]   ["Amazon", "Borneo", "Congo"];
+  
+  [x]   ["Amazon","Borne"];
+  
+  [✅]   ["Cerrado","Congo"];
+  
+  [x]   ["Amazon", "Borneo", "Cerrado","Congo"];
